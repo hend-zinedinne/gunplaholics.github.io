@@ -22,11 +22,12 @@ p {
 }
 
 .barbatos_bg {
-    background-image:url("images/barbatos-lupus-gradient.jpg");
-    background-size:cover;
-    position:center;
+    background-image: url("images/barbatos-lupus-gradient.jpg");
+    background-size: cover;
+    background-position: top;
     background-attachment: scroll;
-    height:auto;
+    min-height: 300px;
+    position:inherit 
 }
 
 .principale {
@@ -92,13 +93,6 @@ p {
     }
 }
 
-.grey_bg {
-    position:scroll;
-    padding:0;
-    margin:0;
-    width: 100%;
-    background:#222222;
-}
 
 .transparent_title {
     background: url("images/barbatos-lupus-background.jpg") no-repeat scroll;
@@ -113,3 +107,10 @@ p {
     margin-bottom:0px;
 }
 
+body {
+    position:scroll;
+    padding:0;
+    margin:0;
+    width: 100%;
+    background:#222222;
+}
