@@ -1,0 +1,115 @@
+
+@font-face {
+  font-family: 'iosevka-extended';
+  src: url('fichiers/polices/iosevka-extended/iosevka-extended-regular.ttf');
+}
+
+@keyframes size {
+    from {
+        scale:1;
+    }
+
+    to {
+        scale:1.05;
+    }
+}
+
+p {
+    color:#CCCCCC;
+    font-size:large;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.barbatos_bg {
+    background-image:url("images/barbatos-lupus-gradient.jpg");
+    background-size:cover;
+    position:center;
+    background-attachment: scroll;
+    height:auto;
+}
+
+.principale {
+    font-family:'iosevka-extended';
+    font-weight:bolder;
+    margin:0px;
+
+
+    .produit_grid > div:hover {
+        animation: size 500ms alternate 2
+    }
+
+    .produit_grid {
+        max-width: auto;
+        margin: 0 auto;
+        border: 2px solid rgb(90, 90, 90);
+        border-radius: 5px;
+        background-color: rgba(177, 177, 177, 0.137);
+        padding: 1em;
+        color: #CCCCCC;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        text-shadow:#222222 2px 2px;
+
+        .gusion {
+            background-image:url(images/hg_gusion_rebake.png);
+            background-size:cover;
+        }
+        .barbatos {
+            background-image:url(images/mg_barbatos_lupus.png);
+            background-size:cover;
+        }
+        .vidar {
+            background-image:url(images/mg_vidar.png);
+            background-size:cover;
+        }
+        .tallgeese {
+            background-image:url(images/rg_tallgeese.png);
+            background-size:cover;
+        }
+        .sazabi {
+            background-image:url(images/rg_sazabi.png);
+            background-size:cover;
+        }
+        .unicorn {
+            background-image:url(images/mg_unicorn.png);
+            background-size:cover;
+        }
+        .zaku {
+            background-image:url(images/hg_zaku.png);
+            background-size:cover;
+        }
+        .zgok {
+            background-image:url(images/mg_zgok.png);
+            background-size:cover;
+        }
+        .astray_red {
+            background-image:url(images/rg_astray_red.png);
+            background-size:cover;
+        }
+    }
+}
+
+.grey_bg {
+    position:scroll;
+    padding:0;
+    margin:0;
+    width: 100%;
+    background:#222222;
+}
+
+.transparent_title {
+    background: url("images/barbatos-lupus-background.jpg") no-repeat scroll;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: block;
+    background-position-x:center;
+    background-position-y:top;
+    background-size:cover;
+    text-align:center;
+    font-family:'iosevka-extended';
+    margin-bottom:0px;
+}
+
