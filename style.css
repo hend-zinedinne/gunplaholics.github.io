@@ -33,11 +33,24 @@ p {
 .principale {
     font-family:'iosevka-extended';
     font-weight:bolder;
-    margin:0px;
 
+    .page_grid {
+        margin: auto;
+        border: 2px solid rgb(90, 90, 90);
+        border-radius: 5px;
+        background-color: rgba(177, 177, 177, 0.137);
+        padding: 0;
+        color: #CCCCCC;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        text-shadow:#222222 2px 2px;
+    }
 
     .produit_grid > div:hover {
-        animation: size 500ms alternate 2
+        animation: size 500ms alternate 2;
+        border: 3px solid rgb(90,90,90);
     }
 
     .produit_grid {
