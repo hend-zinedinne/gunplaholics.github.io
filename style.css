@@ -38,7 +38,7 @@ p {
     margin-right:50px;
 }
 
-.radio_buttons button {
+.menu_bar button {
     display:inline-block;
     border-left: 2px solid #222222;
     border-right: 2px solid #222222;
@@ -49,16 +49,16 @@ p {
     font-size:large
 }
 
-.radio_buttons button:hover {
+.menu_bar button:hover {
     background-color: rgba(50,50,50, 0.2);
 }
 
-.radio_buttons {
-    background-color: rgba(50,50,50, 0.7);
+.menu_bar {
+    background-color: rgba(50,50,50, 0.5);
 }
 
 .barbatos_bg {
-    background-image: url("images/barbatos-lupus-gradient.jpg");
+    background-image: url("images/bg/barbatos-lupus-gradient.jpg");
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
@@ -66,9 +66,26 @@ p {
     position:inherit 
 }
 
+.wing_zero_bg {
+    background-image: url("images/bg/wing-zero-ew-background.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    min-height: 300px;
+    position:inherit 
+}
+
+.nu_gundam_bg {
+    background-image: url("images/bg/nu-gundam-background-gradient.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    min-height: 300px;
+    position:inherit 
+}
+
+
 .principale {
-    font-family:'iosevka-extended';
-    font-weight:bolder;
 
     .page_grid {
         margin: auto;
@@ -141,10 +158,9 @@ p {
     }
 
     .transparent_title {
-        background: url("images/barbatos-lupus-background.jpg");
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        display: block;
+        display:block;
         background-size: cover;
         background-position: top;
         background-attachment: scroll;
@@ -153,5 +169,6 @@ p {
         text-align:center;
         font-family:'iosevka-extended';
         margin-bottom:0px;
+        background-position-y: -245px;
     }
 }
