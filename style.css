@@ -58,7 +58,7 @@ p {
 }
 
 .barbatos_bg {
-    background-image: url("images/bg/barbatos-lupus-gradient.jpg");
+    background-image: url("images/bg/barbatos_lupus_dark.png");
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
@@ -67,7 +67,7 @@ p {
 }
 
 .wing_zero_bg {
-    background-image: url("images/bg/wing-zero-ew-background.jpg");
+    background-image: url("images/bg/wing_zero_dark.png");
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
@@ -76,7 +76,7 @@ p {
 }
 
 .nu_gundam_bg {
-    background-image: url("images/bg/nu-gundam-background-gradient.jpg");
+    background-image: url("images/bg/nu_gundam_dark.png");
     background-size: cover;
     background-position: top;
     background-attachment: scroll;
@@ -156,19 +156,19 @@ p {
             background-size:cover;
         }
     }
+}
 
-    .transparent_title {
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        display:block;
-        background-size: cover;
-        background-position: top;
-        background-attachment: scroll;
-        min-height: 300px;
-        position:inherit; 
-        text-align:center;
-        font-family:'iosevka-extended';
-        margin-bottom:0px;
-        background-position-y: -245px;
-    }
+.transparent_title {
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display:block;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    min-height: 300px;
+    position:inherit; 
+    text-align:center;
+    font-family:'iosevka-extended';
+    margin-bottom:0px;
+    background-position-y: -245px;
 }
