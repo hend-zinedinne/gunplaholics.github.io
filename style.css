@@ -38,23 +38,34 @@ p {
     margin-right:50px;
 }
 
-.menu_bar button {
-    display:inline-block;
+.menu_bar .bar_buttons {
+    display:inline;
     border-left: 2px solid #222222;
     border-right: 2px solid #222222;
     height:128px;
     width:128px;
     background-color: rgba(50,50,50, 0.5);
     font-weight:bold;
-    font-size:large
+    font-size:large;
+    text-decoration:none;
+    text-align:center;
 }
 
 .menu_bar button:hover {
     background-color: rgba(50,50,50, 0.2);
 }
 
-.menu_bar {
-    background-color: rgba(50,50,50, 0.5);
+.bar_left {
+    align-items:flex-start;
+}
+
+.bar_empty {
+    background-color:rgba(50,50,50,0.7);
+    flex-grow:1;
+}
+
+.bar_right {
+    align-items:flex-start;
 }
 
 .barbatos_bg {
@@ -84,6 +95,14 @@ p {
     position:inherit 
 }
 
+.calibarn_bg {
+    background-image: url("images/bg/calibarn_dark.png");
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    min-height: 300px;
+    position:inherit 
+}
 
 .principale {
 
