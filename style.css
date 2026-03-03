@@ -20,6 +20,24 @@
     color:#CCCCCC
 }
 
+body {
+    position:scroll;
+    padding:0;
+    margin:0;
+    width: 100%;
+    background:#222222;
+}
+
+img {
+    display:inline-block
+}
+
+p {
+    font-size:large;
+    margin-left:50px;
+    margin-right:50px;
+}
+
 .radio_buttons button {
     display:inline-block;
     border-left: 2px solid #222222;
@@ -37,16 +55,6 @@
 
 .radio_buttons {
     background-color: rgba(50,50,50, 0.7);
-}
-
-img {
-    display:inline-block
-}
-
-p {
-    font-size:large;
-    margin-left:50px;
-    margin-right:50px;
 }
 
 .barbatos_bg {
@@ -131,25 +139,19 @@ p {
             background-size:cover;
         }
     }
-}
 
-
-.transparent_title {
-    background: url("images/barbatos-lupus-background.jpg") no-repeat scroll;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    display: block;
-    background-position:top;
-    background-size:cover;
-    text-align:center;
-    font-family:'iosevka-extended';
-    margin-bottom:0px;
-}
-
-body {
-    position:scroll;
-    padding:0;
-    margin:0;
-    width: 100%;
-    background:#222222;
+    .transparent_title {
+        background: url("images/barbatos-lupus-background.jpg");
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        display: block;
+        background-size: cover;
+        background-position: top;
+        background-attachment: scroll;
+        min-height: 300px;
+        position:inherit; 
+        text-align:center;
+        font-family:'iosevka-extended';
+        margin-bottom:0px;
+    }
 }
