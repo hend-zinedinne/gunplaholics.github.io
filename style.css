@@ -39,20 +39,27 @@ p {
 }
 
 .menu_bar .bar_buttons {
-    display:inline;
-    border-left: 2px solid #222222;
-    border-right: 2px solid #222222;
-    height:128px;
+    display:inline-block;
     width:128px;
-    background-color: rgba(50,50,50, 0.5);
+    height:128px;
+    background-color: rgba(0,0,0, 0);
     font-weight:bold;
     font-size:large;
     text-decoration:none;
     text-align:center;
+    margin:auto;
 }
 
-.menu_bar button:hover {
-    background-color: rgba(50,50,50, 0.2);
+.menu_bar .bar_buttons_dark {
+    background-color: rgba(50,50,50, 0.4);
+    display:inline-block;
+    width:128px;
+    height:128px;
+    font-weight:bold;
+    font-size:large;
+    text-decoration:none;
+    text-align:center;
+    margin:auto;
 }
 
 .bar_left {
